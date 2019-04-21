@@ -24,6 +24,10 @@
 		<summary>[COLOR white]ADDON ENERGIA[/COLOR]</summary>
 		<description>[COLOR white][B]Necesario YouTube, f4mTester, SportDevil, Plexus-Acestream y un reproductor de torrent.[/B][/COLOR]</description>
 		<platform>all</platform>
+		<assets>
+			<icon>ICONO.png</icon>
+			<fanart>FONDO.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
