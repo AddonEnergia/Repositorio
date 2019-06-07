@@ -3,16 +3,16 @@
 <addon id="plugin.video.energia" name="[COLOR white][B]ENERGIA[/B][/COLOR]" version="1.1.1" provider-name="[COLOR white][B]ENERGIA[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.beautifulsoup"/>
-		<import addon="script.module.simple.downloader"/>
-		<import addon="script.module.beautifulsoup4"/>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.httplib2"/>
-		<import addon="script.module.simplejson"/>
 		<import addon="plugin.video.youtube" optional="true"/>
+		<import addon="script.module.beautifulsoup"/>
+		<import addon="script.module.beautifulsoup4"/>
+		<import addon="script.module.httplib2"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.simple.downloader"/>
+		<import addon="script.module.simplejson"/>
 		<import addon="script.module.urlresolver"/>
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
+	<extension point="xbmc.python.pluginsource" library="resources/addon.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.repository">
@@ -25,8 +25,8 @@
 		<description>[COLOR white][B]Necesario YouTube, f4mTester, SportDevil, Plexus-Acestream y un reproductor de torrent.[/B][/COLOR]</description>
 		<platform>all</platform>
 		<assets>
-			<icon>ICONO.png</icon>
-			<fanart>FONDO.jpg</fanart>
+			<icon>resources/icono.png</icon>
+			<fanart>resources/fondo.jpg</fanart>
 		</assets>
 	</extension>
 </addon>
