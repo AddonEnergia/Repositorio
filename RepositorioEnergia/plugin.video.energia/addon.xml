@@ -2,23 +2,15 @@
 <addon id="plugin.video.energia" name="[COLOR white][B]ENERGIA[/B][/COLOR]" version="1.1" provider-name="[COLOR white][B]ENERGIA[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.beautifulsoup" version="3.2.1"/>
-		<import addon="script.module.simple.downloader" version="0.9.4"/>
-		<import addon="script.module.requests"/>
+		<import addon="script.module.beautifulsoup"/>
 		<import addon="script.module.httplib2"/>
-		<import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-		<import addon="script.module.youtube.dl" optional="true"/>
-		<import addon="plugin.video.youtube" optional="true"/>
-		<import addon="script.module.dateutil" optional="true"/>
-		<import addon="script.module.resolveurl" optional="true"/>
-		<import addon="script.module.urlresolver" optional="true"/>
-		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.simple.downloader"/>
 		<import addon="script.module.simplejson"/>
-		<import addon="script.module.livestreamer" optional="true"/>
-		<import addon="script.module.slproxy" optional="true"/>
-		<import addon="script.module.pyamf" optional="true"/>
+		<import addon="script.module.urlresolver"/>
+		<import addon="plugin.video.youtube" optional="true"/>
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
+	<extension point="xbmc.python.pluginsource" library="resources/energia.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.repository">
@@ -30,5 +22,9 @@
 		<summary>[COLOR white]ADDON ENERGIA[/COLOR]</summary>
 		<description>[COLOR white][B]Necesario YouTube, f4mTester, SportDevil, Plexus-Acestream y un reproductor de torrent.[/B][/COLOR]</description>
 		<platform>all</platform>
+		<assets>
+			<icon>resources/icono.png</icon>
+			<fanart>resources/fondo.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
