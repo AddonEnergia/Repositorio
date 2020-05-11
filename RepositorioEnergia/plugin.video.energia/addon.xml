@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.energia" name="[COLOR white][B]ENERGIA[/B][/COLOR]" version="1.1" provider-name="[COLOR white][B]ENERGIA[/B][/COLOR]">
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id='plugin.video.energia' name='[COLOR white][B]ENERGIA[/B][/COLOR]' version='1.1' provider-name='[COLOR white][B]ENERGIA[/B][/COLOR]'>
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.beautifulsoup"/>
-		<import addon="script.module.httplib2"/>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.simple.downloader"/>
-		<import addon="script.module.simplejson"/>
-		<import addon="script.module.urlresolver"/>
-		<import addon="plugin.video.youtube" optional="true"/>
+		<import addon='xbmc.python' version='2.1.0'/>
+		<import addon='script.module.beautifulsoup'/>
+		<import addon='script.module.httplib2'/>
+		<import addon='script.module.requests'/>
+		<import addon='script.module.simple.downloader'/>
+		<import addon='script.module.simplejson'/>
+		<import addon='script.module.urlresolver'/>
+		<import addon='plugin.video.youtube' optional='true'/>
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="resources/energia.py">
+	<extension point='xbmc.python.pluginsource' library='resources/energia.py'>
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.addon.repository">
+	<extension point='xbmc.addon.repository'>
 		<info>https://raw.githubusercontent.com/AddonEnergia/Repositorio/master/RepositorioEnergia/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/AddonEnergia/Repositorio/master/RepositorioEnergia/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/AddonEnergia/Repositorio/master/RepositorioEnergia/</datadir>
+		<datadir zip='true'>https://raw.githubusercontent.com/AddonEnergia/Repositorio/master/RepositorioEnergia/</datadir>
 	</extension>
-	<extension point="xbmc.addon.metadata">
+	<extension point='xbmc.addon.metadata'>
 		<summary>[COLOR white]ADDON ENERGIA[/COLOR]</summary>
 		<description>[COLOR white][B]Necesario YouTube, f4mTester, SportDevil, Plexus-Acestream y un reproductor de torrent.[/B][/COLOR]</description>
 		<platform>all</platform>
